@@ -1,0 +1,3 @@
+1. Javascript izmislen od Brendan Eich vo 1995 god, prvo se vikal Livescript.
+2. Programski jazik koj sto se intepretira na Web prelistuvac. Ne se kompajlira.
+3. So Javascript moze da se menuva tekstot na veb stranata dinamicki, da validira nekakov input.
