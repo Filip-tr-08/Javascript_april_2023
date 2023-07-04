@@ -148,3 +148,20 @@ fetch("https://randomuser.e/api/?results=10")
   .finally(() =>
     console.log("Ova ke se izvrsi bez razlika dali povikot e dobar ili ne")
   );
+
+// III Nacin => async/await
+
+//PRIMER 6
+
+async function getDataFromFetch(url) {
+  try {
+    let response = await fetch(url);
+    let data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.log(error.message);
+  } finally {
+    console.log("Ova ke se izvrsi bez razlika dali povikot e dobar ili ne");
+  }
+}
+getDataFromFetch("https://randomuser.e/api/?results=10");
